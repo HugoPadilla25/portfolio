@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <!-- Use absolute URLs for CSS and font files -->
+    <link rel="stylesheet" href="{{ root }}/css/{{ style }}">
+    <link rel="icon" href="{{ root }}/images/logo chico 2.PNG" type="image">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-XhQ3X6TUGlK7Kz7+gaUNf1gnn5OoKs+N6ECIa1WREz+8KYOonYY2Fcy6G4Zos8Bxl2EvWs/JrbdeN9XrxqKznA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>{{ title }}</title>
+</head>
+
+<body>
+    {{> navigation }}
+    <main class="cointainer p-5">
+        {{{ body }}}
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.4/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+    <script src="{{ root }}{{ file }}"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

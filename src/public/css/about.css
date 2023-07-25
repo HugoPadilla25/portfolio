@@ -1,0 +1,13 @@
+main {
+    background-color: rgb(23, 23, 44);
+    color: aliceblue;
+    width: 100%;
+    min-width: none;
+}
+
+.about-container {
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 38px;
+}

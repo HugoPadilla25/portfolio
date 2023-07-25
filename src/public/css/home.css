@@ -1,0 +1,40 @@
+main {
+    background-color: rgb(23, 23, 44);
+    color: aliceblue;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line {
+    color: white;
+    background-color: white;
+
+}
+
+.description {
+    width: 94%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to bottom, #000000, #040018);
+    color: whitesmoke;
+    padding: 25px;
+    box-shadow: 4px 4px 4px rgba(0, 8, 78, 0.603);
+    font-size: 18px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.text-box {
+    margin-left: 20px;
+}
+
+#logo-home {
+    width: 150px;
+    box-shadow: 0 2px 4px rgba(2, 0, 110, 0.363);
+}

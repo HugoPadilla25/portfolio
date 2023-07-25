@@ -1,0 +1,54 @@
+main {
+    background-color: rgb(23, 23, 44);
+    color: aliceblue;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pt-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 98%;
+    min-height: 100vh;
+    margin-top: 30px;
+}
+
+.aws-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 200px;
+    margin-top: 30px;
+}
+
+.awrd-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.awrd {
+    width: 200px;
+    height: 200px;
+    margin-right: 75px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+
+.certificado {
+    width: 200px;
+}
+
+.awr-tag {
+    border: 3px solid rgb(0, 0, 61);
+    width: 200px;
+    height: 30px;
+    background-color: rgb(234, 236, 255);
+    color: black;
+}

@@ -1,0 +1,40 @@
+* {
+    font-family: serif;
+}
+
+.main-heat {
+    margin-top: 50px;
+}
+
+html, body {
+    min-width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#description {
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+#container-ch {
+    min-width: 1300px;
+    min-height: 600px;
+    background-color: azure;
+}
+
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}

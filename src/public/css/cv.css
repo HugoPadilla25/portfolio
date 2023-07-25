@@ -1,0 +1,71 @@
+main {
+    background-color: rgb(23, 23, 44);
+    color: aliceblue;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cv {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos de encabezado */
+  .header-cv {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-cv h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  .header-cv p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  /* Estilos principales */
+  .main-cv h2 {
+    margin-top: 30px;
+  }
+  
+  .main-cv ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .main-cv li {
+    margin-bottom: 15px;
+  }
+  
+  .main-cv h3 {
+    margin: 0;
+  }
+  
+  /* Estilos de habilidades */
+  .main-cv ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+  
+  /* Estilos de enlaces */
+  a {
+    color: #0000EE;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .line-cv {
+    background-color: azure;
+    color: azure;
+  }

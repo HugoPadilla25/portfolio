@@ -1,0 +1,68 @@
+main {
+    background-color: rgb(23, 23, 44);
+    color: aliceblue;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heat {
+    margin-top: 50px;
+}
+
+* {
+    font-family: serif;
+}
+
+.heat-d3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 90vw;
+    flex-direction: column;
+}
+
+#container-heat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    min-height: 550px;
+    margin-left: 100px;
+    margin-bottom: -50px;
+}
+
+#title {
+    margin-top: -20px;
+}
+
+#description {
+    margin-top: -20px;
+}
+
+#legend {
+    margin-top: 50px;
+}
+
+#tooltip {
+    background-color: rgba(0, 0, 0, 0.438);
+    visibility: hidden;
+    width: auto;
+    height: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: .8;
+}
+
