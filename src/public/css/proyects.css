@@ -8,8 +8,9 @@ main {
     align-items: center;
 }
 
+
 .py-container {
-    width: 70%;
+    width: 80%;
     min-height: 400px;
     margin: 0 auto;
     margin-top: 50px;
@@ -25,6 +26,7 @@ main {
     box-shadow: 4px 4px 4px rgb(0, 26, 255);
     display: flex;
     flex-direction: row;
+    overflow: scroll;
 }
 
 #img {
@@ -34,7 +36,7 @@ main {
 
 .text-cont {
     height: 199px;
-    width: 680px;
+    margin-right: 20px;
     margin-left: 20px;
     padding-top: 20px;
 }

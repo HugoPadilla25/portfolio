@@ -1,3 +1,4 @@
+/* Use media queries to adapt styles for different screen sizes */
 main {
     background-color: rgb(23, 23, 44);
     color: aliceblue;
@@ -6,13 +7,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-size: 16px; /* Set a default font size for all screen sizes */
 }
 
 .line {
     color: white;
     background-color: white;
-
 }
 
 .description {
@@ -24,10 +24,22 @@ main {
     color: whitesmoke;
     padding: 25px;
     box-shadow: 4px 4px 4px rgba(0, 8, 78, 0.603);
-    font-size: 18px;
+    font-size: 1.125rem; /* Change font-size to rem */
     border-radius: 5px;
     margin: auto;
     margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    main {
+        font-size: 14px; 
+    }
+    .description {
+        flex-direction: column;
+        min-height: 500px;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 .text-box {
@@ -38,3 +50,8 @@ main {
     width: 150px;
     box-shadow: 0 2px 4px rgba(2, 0, 110, 0.363);
 }
+
+
+
+
+

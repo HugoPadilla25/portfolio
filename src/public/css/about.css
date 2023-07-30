@@ -3,6 +3,7 @@ main {
     color: aliceblue;
     width: 100%;
     min-width: none;
+    min-height: 100vh;
 }
 
 .about-container {
